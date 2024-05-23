@@ -1,0 +1,21 @@
+<!-- //Escribir un script en que muestre un mensaje de bienvenida, Fecha y hora. El script se debe incluir dentro de la página XHTML. Por: Josmar osorio. Para: Programación V-UBA
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let fecha = new Date(); //Creamos una variable llamada fecha para obtener la fecha y la hora actual 
+        alert("Hola bienvenido, hoy es " + fecha.toLocaleDateString() + " y son las " + fecha.toLocaleTimeString() + ".") //Utilizamos fecha.toLocaleDateString() y 
+        //fecha.toLocaleTimeString() para mostrar la fecha actual y la hora respectivamente
+    </script>
+</body>
+
+</html>
