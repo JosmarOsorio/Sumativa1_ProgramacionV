@@ -13,4 +13,4 @@ Por otro lado haciendo al revision del lado drecho de la expresion tenemos "y !=
 Luego tenemos la expresion x <= y  la cual es falta debido a que la variable "x" es mayor a la vairable "y". Esta parte de la expresion tambien se encuentra negada por lo tanto se
 invierten los resultados quedando la expresion "!(y !== 2 && x <= y)" como verdadera.
 
-Por ultimos podemos decir que la expresion completa es falsa debidio a que ambas comparativas dan un resultado diferente en su analisis.*/
+Por ultimos podemo decir que la expresion completa es falsa debidio a que ambas comparativas dan un resultado diferente en su analisis.*/
